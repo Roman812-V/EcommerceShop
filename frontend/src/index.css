@@ -62,6 +62,9 @@ li{
   margin-top: 1rem;
   /* margin-left: 1rem; - optional*/
 }
+input,
+select,
+textarea,
 button{
   padding: 1rem;
   border-radius: 0.5rem;
@@ -73,12 +76,19 @@ button{
   background-color: #f8f8f8;
   cursor: pointer;
 }
+button{
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
 button.primary{
   background-color: #f0c040;
 }
 button.block{
   width: 100%;
 }
+input:hover,
+select:hover,
+textarea:hover,
 button:hover{
   border: 0.1rem #404040 solid;
 }
