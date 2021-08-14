@@ -86,7 +86,7 @@ button:hover {
   border: 0.1rem #404040 solid;
 }
 button.primary {
-  background-color: #f0c040;
+  background-color: #40aaf0;
 }
 button.block {
   width: 100%;
@@ -192,4 +192,18 @@ img.large {
 .alert-danger {
   color: #a02020;
   background-color: #ffe0e0e0;
+}
+/* Form */
+.form{
+  max-width: 60rem;
+  margin:  auto;
+}
+.form > div{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.fomr label{
+  margin: 1rem 0;
+  display: block;
 }
