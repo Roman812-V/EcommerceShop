@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import React, { useEffect } from "react";
-import { addToCart } from "../actions/cartActions";
+import { addToCart, removeFromCart } from "../actions/cartActions";
 import { useDispatch, useSelector } from "react-redux";
 import MessageBox from "../components/MessageBox";
 import { Link } from "react-router-dom";
@@ -20,6 +20,7 @@ export default function CartScreen(props) {
   }, [dispatch, productId, qty]);
   const removeFromCarthandler = (id) => {
     //delete action
+    dispatch(removeFromCart(id));
   };
 
   const checkoutHandler = () => {
