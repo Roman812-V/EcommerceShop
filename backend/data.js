@@ -16,7 +16,6 @@ const data = {
   ],
   products: [
     {
-      _id: "1",
       name: "FIODIO Membrane Gaming Keyboard",
       category: "Keyboards",
       image: "/images/p1.jpg",
@@ -29,7 +28,6 @@ const data = {
         "USB Wired Keyboard with Rainbow Backlit, Spill Resistant, Multimedia Control for PC and Desktop Computer",
     },
     {
-      _id: "2",
       name: "Razer Sphex V2 Gaming Mouse Pad",
       category: "Mouse Pads",
       image: "/images/p2.jpg",
@@ -42,7 +40,6 @@ const data = {
         "Ultra-Thin Form Factor - Optimized Gaming Surface - Polycarbonate Finish",
     },
     {
-      _id: "3",
       name: "Logitech Wireless Mouse",
       category: "Mouses",
       image: "/images/p3.jpg",
@@ -54,7 +51,6 @@ const data = {
       description: "Logitech Wireless Mouse M185 (Swift Grey)",
     },
     {
-      _id: "4",
       name: "Gaming Graphics Card",
       category: "Graphics Cards",
       image: "/images/p4.jpg",
@@ -67,7 +63,6 @@ const data = {
         "ASUS GeForce GTX 1050 Ti 4GB Phoenix Fan Edition DVI-D HDMI DP 1.4",
     },
     {
-      _id: "5",
       name: "HP 15 Laptop",
       category: "Laptops",
       image: "/images/p5.jpg",
@@ -80,7 +75,6 @@ const data = {
         "HP 15 Laptop, 11th Gen Intel Core i5-1135G7 Processor, 8 GB RAM, 256 GB SSD Storage",
     },
     {
-      _id: "6",
       name: "Kids Headphones",
       category: "Headphones",
       image: "/images/p6.jpg",
@@ -93,7 +87,6 @@ const data = {
         "Headphones 3.5mm Jack Compatible Cellphones Computer MP3/4 Kindle School Tablet Green/Purple",
     },
     {
-      _id: "7",
       name: "Apple AirPods Pro",
       category: "Apple",
       image: "/images/p7.jpg",
@@ -105,7 +98,6 @@ const data = {
       description: "Apple AirPods Pro",
     },
     {
-      _id: "8",
       name: "Desktop Computer",
       category: "Computers",
       image: "/images/p8.jpg",
@@ -118,7 +110,6 @@ const data = {
         "Alarco Gaming PC Desktop Computer Intel i5 3.10GHz,8GB Ram,1TB Hard Drive,Windows 10 pro",
     },
     {
-      _id: "9",
       name: "Monitor",
       category: "Monitors",
       image: "/images/p9.jpg",
@@ -131,7 +122,6 @@ const data = {
         "Acer SB220Q bi 21.5 Inches Full HD (1920 x 1080) IPS Ultra-Thin Zero Frame Monitor (HDMI & VGA Port), Black",
     },
     {
-      _id: "10",
       name: "Desktop Processor",
       category: "Processors",
       image: "/images/p10.jpg",
