@@ -1,0 +1,1 @@
+web: node --experimentalher-modules backend/server.js
