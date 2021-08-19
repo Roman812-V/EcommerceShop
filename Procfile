@@ -1,1 +1,1 @@
-web: node --experimentalher-modules backend/server.js
+web: node --experimental-modules backend/server.js
