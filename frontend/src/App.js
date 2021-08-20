@@ -20,6 +20,7 @@ import ProfileScreen from "./screens/ProfileScreen";
 import RegisterScreen from "./screens/RegisterScreen";
 import ShippingAddressScreen from "./screens/ShippingAddressScreen";
 import SigninScreen from "./screens/SigninScreen";
+import UserListScreen from "./screens/UserListScreen";
 
 function App() {
   const cart = useSelector((state) => state.cart);
@@ -86,7 +87,7 @@ function App() {
                     <Link to="/orderlist">Orders</Link>
                   </li>
                   <li>
-                    <Link to="/userList">Users</Link>
+                    <Link to="/userlist">Users</Link>
                   </li>
                 </ul>
               </div>
@@ -120,6 +121,7 @@ function App() {
             path="/orderlist"
             component={OrderListScreen}
           ></AdminRoute>
+          <AdminRoute path="/userlist" component={UserListScreen}></AdminRoute>
           <Route path="/" component={HomeScreen} exact></Route>
         </main>
         <footer className="row center">
