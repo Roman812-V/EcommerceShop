@@ -10,12 +10,15 @@ productRouter.get(
   "/",
   expressAsyncHandler(async (req, res) => {
     const name = req.query.name || "";
+    const category = req.query.category || "";
     const seller = req.query.seller || "";
     const nameFilter = name ? { name: { $regex: name, $options: "i" } } : {};
     const sellerFilter = seller ? { seller } : {};
+    const categoryFilter = category ? { category } : {};
     const products = await Product.find({
       ...sellerFilter,
       ...nameFilter,
+      ...categoryFilter,
     }).populate("seller", "seller.name seller.logo"); //({}) - it means return all products
     res.send(products);
   })
@@ -102,6 +105,14 @@ productRouter.delete(
     } else {
       res.status(404).send({ message: "Product Not Found" });
     }
+  })
+);
+
+productRouter.get(
+  "/categories/:_id",
+  expressAsyncHandler(async (req, res) => {
+    const categories = await Product.find().distinct("category");
+    res.send(categories);
   })
 );
 
