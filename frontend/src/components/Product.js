@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import Rating from "./Rating";
 import { Link } from "react-router-dom";
+import Rating from "./Rating";
+
 export default function Product(props) {
   const { product } = props;
   return (
